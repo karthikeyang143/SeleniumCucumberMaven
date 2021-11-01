@@ -35,9 +35,9 @@ public class YouTubeSearchStepDef {
         driver.findElement(By.xpath("//input[@id='search']")).sendKeys("Automation Testing");
     }
     @Then("I Click on search button")
-    public void IClickonsearchbutton()
-    {
+    public void IClickonsearchbutton() throws InterruptedException {
         driver.findElement(By.id("search-icon-legacy")).click();
+        Thread.sleep(5000);
         driver.close();
     }
 }
