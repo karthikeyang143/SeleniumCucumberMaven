@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb687bb-94f1-4923-9958-b17ca9465294" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/MyStepDefinitions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/YouTubeSearchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/YouTubeSearchStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/PropertiesFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Demo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Result.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Result.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/YouTubeSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/YouTubeSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +38,33 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/WORKSPACE/LEARNING/SeleniumCucumberMavenTestNG/testng.xml">
+    <configuration name="Scenario: Youtube Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" />
+      <option name="GLUE" value="com.example.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SeleniumCucumberMavenTestNG" />
+      <option name="NAME_FILTER" value="^Youtube Search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Youtube Search$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Youtube Search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/WORKSPACE/LEARNING/SeleniumCucumberMavenTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCucumberMavenTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -39,9 +75,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCucumberMavenTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/WORKSPACE/LEARNING/SeleniumCucumberMavenTestNG/testng.xml" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber java.Scenario: Youtube Search" />
       </list>
     </recent_temporary>
   </component>
@@ -79,22 +134,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1635795201339" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1635796226647">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1635846897713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1635796226647" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1635796226647">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1635846897713" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1635846897713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1635796226647" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1635796226647">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1635846897713" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1635846897713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1635796226647" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1635796226647">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1635846897713" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1635846897713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1635796226647" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1635846897713" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1635796155526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

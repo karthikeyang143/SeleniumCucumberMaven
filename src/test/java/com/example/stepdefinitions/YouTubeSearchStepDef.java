@@ -11,7 +11,6 @@ import org.testng.Assert;
 
 public class YouTubeSearchStepDef {
     public static WebDriver driver;
-
     @Before
     public void setup()
     {
@@ -32,7 +31,7 @@ public class YouTubeSearchStepDef {
     public void IEnterTheSearchCriteria() throws InterruptedException {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@id='search']")).click();
-        driver.findElement(By.xpath("//input[@id='search']")).sendKeys("Automation Testing");
+        driver.findElement(By.xpath("//input[@id='search']")).sendKeys("selenium cucumber maven testNG");
     }
     @Then("I Click on search button")
     public void IClickonsearchbutton() throws InterruptedException {
