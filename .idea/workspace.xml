@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb687bb-94f1-4923-9958-b17ca9465294" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/MyStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/YouTubeSearchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/stepdefinitions/YouTubeSearchStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/PropertiesFileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Demo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Result.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Result.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/YouTubeSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/YouTubeSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumCucumberMavenTestNG_Basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumCucumberMavenTestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumCucumberMavenTestNG_Basic.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +36,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/YouTubeSearch.feature" />
       <option name="GLUE" value="com.example.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SeleniumCucumberMavenTestNG" />
+      <module name="SeleniumCucumberMavenTestNG_Basic" />
       <option name="NAME_FILTER" value="^Youtube Search$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Youtube Search$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Youtube Search" />
@@ -66,7 +51,7 @@
       </method>
     </configuration>
     <configuration name="C:/WORKSPACE/LEARNING/SeleniumCucumberMavenTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCucumberMavenTestNG" />
+      <module name="SeleniumCucumberMavenTestNG_Basic" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -76,7 +61,7 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCucumberMavenTestNG" />
+      <module name="SeleniumCucumberMavenTestNG_Basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.runner.*" />
