@@ -23,7 +23,9 @@ public class YouTubeSearchStepDef {
     {
         driver.get("https://www.youtube.com");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//*[text()='I agree']")).click();
+        //Check if Agree button is displayed
+        if(driver.findElements(By.xpath("//*[text()='I agree']")).size() > 0)
+            driver.findElement(By.xpath("//*[text()='I agree']")).click();
         Assert.assertTrue(driver.getTitle().equals("YouTube"));
     }
 
@@ -34,7 +36,7 @@ public class YouTubeSearchStepDef {
         driver.findElement(By.xpath("//input[@id='search']")).sendKeys("selenium cucumber maven testNG");
     }
     @Then("I Click on search button")
-    public void IClickonsearchbutton() throws InterruptedException {
+    public void IClickOnSearchButton() throws InterruptedException {
         driver.findElement(By.id("search-icon-legacy")).click();
         Thread.sleep(5000);
         driver.close();
